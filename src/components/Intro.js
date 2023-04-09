@@ -14,7 +14,7 @@ const Intro = () => {
     <div className="flex flex-col w-full mx-auto p-4 max-w-[1240px] ml-16 px-16" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay='200' >
       <h1 className="flex flex-row font-medium font-sans text-8xl text-white">we are</h1>
 
-      <h2 className="text-7xl ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-700">
+      <h2 className="text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-700">
         asme manipal
       </h2>
 
