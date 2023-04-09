@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import logo from './assets/asme-logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,8 +11,14 @@ const Navbar = () => {
 
   return (
     <div>
-    <div className='flex justify-between items-center h-28 max-w-[1240px] mx-auto px-4 text-white'>
-      <h1 className='w-full text-5xl font-bold text-[#00df9a]'>ASME</h1>
+    <div className='flex justify-between items-center h-28 max-w-[1240px] mx-auto px-4 text-white mt-7'>
+      {/* <h1 className='w-full text-5xl font-bold text-[#00df9a]'></h1> */}
+      <div className='max-w-[200px] mt-10 ml-8'
+      data-aos="flip-right"
+            data-aos-duration="1500"
+            data-aos-delay="100">
+      <img src={logo} className="App-logo" alt="logo" />
+      </div>
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Company</li>
