@@ -1,6 +1,5 @@
 import React from "react";
 import videoFile from "./assets/about_us.webm";
-// import AOS from "aos";
 import "aos/dist/aos.css";
 
 const About = () => {
