@@ -39,7 +39,7 @@ const Intro = () => {
           autoplay
           loop
           mode="normal"
-          src="https://assets9.lottiefiles.com/private_files/lf30_cbemdbsc.json"
+          src="https://assets1.lottiefiles.com/packages/lf20_tffkxdae.json"
           style={{ width: 40 + "rem" }}
         ></lottie-player>
       </div>
