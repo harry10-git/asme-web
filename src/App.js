@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import About from './components/About';
 import Vission from './components/Vission';
 import Do from './components/Do';
+import DoCarousel from './components/DoCarousel';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
     <About/>
     <Vission/>
     <Do />
+
+    <DoCarousel/>
 
     </div>
   );
