@@ -4,7 +4,11 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Board = () => {
   return (
-    <div className='max-w-[1240px] mx-auto mt-[10rem]'>
+    <div className='max-w-[1240px] mx-auto mt-[10rem]'
+         data-aos="zoom-in-right"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+    >
 
         <div className='flex flex-row'>
 
@@ -38,7 +42,7 @@ const Board = () => {
 
         </div>
 
-
+        <h5 className='p-10 text-5xl text-white'>This section needs updates.......</h5>
     </div>
   )
 }

@@ -11,23 +11,29 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center h-28 max-w-[1240px] mx-auto px-4 text-white mt-7">
+      <div className="flex justify-between items-center h-28 max-w-[1240px] mx-auto px-4 text-white mt-16">
         {/* <h1 className='w-full text-5xl font-bold text-[#00df9a]'></h1> */}
         <div
-          className="max-w-[200px] mt-10 ml-8"
-          data-aos="flip-right"
-          data-aos-duration="1500"
-          data-aos-delay="100"
+          className="max-w-[150px] ml-16"
+          // data-aos="flip-right"
+          // data-aos-duration="1500"
+          // data-aos-delay="100"
         >
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <ul className="hidden md:flex">
+        {/* <ul className="hidden md:flex">
           <li className="p-4">Home</li>
           <li className="p-4">Company</li>
           <li className="p-4">Resources</li>
           <li className="p-4">About</li>
           <li className="p-4">Contact</li>
-        </ul>
+        </ul> */}
+        <p className="text-white text-3xl font-light">
+          Welcome the official page of{" "}
+          <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-blue-500">
+            ASME Manipal.
+          </span>{" "}
+        </p>
         <div onClick={handleNav} className="block md:hidden">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
