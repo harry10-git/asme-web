@@ -5,6 +5,9 @@ import About from './components/About';
 import Vission from './components/Vission';
 import Do from './components/Do';
 import DoCarousel from './components/DoCarousel';
+import Info from './components/Info';
+import Board from './components/Board';
+
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
 
     <DoCarousel/>
 
+    <Info/>
+    <Board/>
     </div>
   );
 }
