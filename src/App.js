@@ -8,6 +8,8 @@ import DoCarousel from './components/DoCarousel';
 import Info from './components/Info';
 import Board from './components/Board';
 
+import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
 
     <Info/>
     <Board/>
+
+
+    <Analytics />
     </div>
   );
 }
